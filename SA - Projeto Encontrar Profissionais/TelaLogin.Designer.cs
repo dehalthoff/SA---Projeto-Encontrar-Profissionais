@@ -37,8 +37,8 @@ namespace SA___Projeto_Encontrar_Profissionais
             this.linkEsqueceuSenha = new System.Windows.Forms.LinkLabel();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnCadastroProfissional = new System.Windows.Forms.Button();
+            this.btnCadastroCliente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblAtencao
@@ -126,29 +126,31 @@ namespace SA___Projeto_Encontrar_Profissionais
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnCadastroProfissional
             // 
-            this.button2.BackColor = System.Drawing.Color.Yellow;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(12, 407);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(165, 31);
-            this.button2.TabIndex = 8;
-            this.button2.Text = "Cadastro Profissional";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnCadastroProfissional.BackColor = System.Drawing.Color.Yellow;
+            this.btnCadastroProfissional.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastroProfissional.ForeColor = System.Drawing.Color.Black;
+            this.btnCadastroProfissional.Location = new System.Drawing.Point(12, 407);
+            this.btnCadastroProfissional.Name = "btnCadastroProfissional";
+            this.btnCadastroProfissional.Size = new System.Drawing.Size(165, 31);
+            this.btnCadastroProfissional.TabIndex = 8;
+            this.btnCadastroProfissional.Text = "Cadastro Profissional";
+            this.btnCadastroProfissional.UseVisualStyleBackColor = false;
+            this.btnCadastroProfissional.Click += new System.EventHandler(this.btnCadastroProfissional_Click);
             // 
-            // button3
+            // btnCadastroCliente
             // 
-            this.button3.BackColor = System.Drawing.Color.Yellow;
-            this.button3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(201, 407);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(165, 31);
-            this.button3.TabIndex = 9;
-            this.button3.Text = "Cadastro Cliente";
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnCadastroCliente.BackColor = System.Drawing.Color.Yellow;
+            this.btnCadastroCliente.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btnCadastroCliente.ForeColor = System.Drawing.Color.Black;
+            this.btnCadastroCliente.Location = new System.Drawing.Point(201, 407);
+            this.btnCadastroCliente.Name = "btnCadastroCliente";
+            this.btnCadastroCliente.Size = new System.Drawing.Size(165, 31);
+            this.btnCadastroCliente.TabIndex = 9;
+            this.btnCadastroCliente.Text = "Cadastro Cliente";
+            this.btnCadastroCliente.UseVisualStyleBackColor = false;
+            this.btnCadastroCliente.Click += new System.EventHandler(this.btnCadastroCliente_Click);
             // 
             // TelaLogin
             // 
@@ -156,8 +158,8 @@ namespace SA___Projeto_Encontrar_Profissionais
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(378, 450);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnCadastroCliente);
+            this.Controls.Add(this.btnCadastroProfissional);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.linkEsqueceuSenha);
@@ -183,8 +185,8 @@ namespace SA___Projeto_Encontrar_Profissionais
         private System.Windows.Forms.LinkLabel linkEsqueceuSenha;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnCadastroProfissional;
+        private System.Windows.Forms.Button btnCadastroCliente;
     }
 }
 

@@ -24,6 +24,21 @@ namespace SA___Projeto_Encontrar_Profissionais
                 lblAtencao.Visible = true;
                 return;
             }
+
+            TelaPesquisa pesquisarProfissional = new TelaPesquisa();
+            pesquisarProfissional.ShowDialog();
+        }
+
+        private void btnCadastroProfissional_Click(object sender, EventArgs e)
+        {
+            TelaCadastroProfissional cadastroProfissional = new TelaCadastroProfissional();
+            cadastroProfissional.ShowDialog();
+        }
+
+        private void btnCadastroCliente_Click(object sender, EventArgs e)
+        {
+            TelaCadastroCliente cadastroCliente = new TelaCadastroCliente();
+            cadastroCliente.ShowDialog();
         }
     }
 }
